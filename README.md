@@ -99,18 +99,12 @@ No separador **User accounts**:
 - **Password**: `morais123`  
 3. Assinalar **Check All** em *Global Privileges*.  
 
-👉 Caso seja utilizado outro utilizador ou password, atualizar as credenciais no ficheiro:
+👉 Caso seja utilizado outro utilizador ou password, atualizar as credenciais no ficheiro: ligacao_db.php
 
+---
 
+## ✅ Observações
+- Para campos `VARCHAR`, utilizar sempre **Length/Values = 255**.  
+- Para chaves primárias usar **A_I (Auto Increment)**.  
 
-
-
-
-
-
-
-
-
-
-1. Ir ao separador **Databases**.
-2. Em **Create Database**, definir o nome
+---
